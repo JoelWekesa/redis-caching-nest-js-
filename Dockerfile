@@ -43,8 +43,8 @@ RUN adduser --system --uid 1001 nestjs
 
 USER nestjs
 
-EXPOSE 8000
+EXPOSE 8400
 
-ENV PORT 8000
+ENV PORT 8400
 
 CMD ["node", "dist/main.js"]
